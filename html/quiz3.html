@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>zippy quiz3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link type="text/css" rel="stylesheet" href="../css/styles.css" href="../css/burger-nav.css" href="../css/reset.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper">
+            <img class="polyquiz1 anim" srcset="../poly-mb/square-1.png" alt="quadrado-azul">
+            <img class="polyquiz2 anim" srcset="../poly-mb/square-2.png" alt="quadrado-amarelo">
+        <header>
+            <nav role ="navigation" class="nav-links-2">
+                <ul class="nomobile">
+                    <li><a href="index.html" title="Ir para a página inicial"><img class="imgfit" src="../imgs/logodesktop.png" alt="Zippy Logo" /></a></li>
+                    <ul class="nomobile2">
+                        <li><a href="#"></a>MENINA</li>
+                        <li><a href="#"></a>MENINO</li>
+                        <li><a href="#"></a>BÉBÉ MENINA</li>
+                        <li><a href="#"></a>BÉBÉ MENINO</li>
+                        <li><a href="#"></a>RECÉM-NASCIDO</li>
+                        <li><a href="#"></a>PUERICULTURA</li>
+                        <li class="special-one"><a href="../html/form.html">ZIPPY IN A BOX</a></li>
+                    </ul>
+                    <ul class="nomobile3">
+                        <li class="spacing"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar">PESQUISAR</a></li>
+                        <li><a class="spacing" href="#"><li class=""><img srcset="../imgs/icon-login.png" alt="login" class="">ENTRAR</li></a></li>
+                        <li class="spacing"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar">0</a></li>
+                    </ul>
+                </ul>
+                <div id="menuToggle">
+                    <input type="checkbox" class="textleft malandro" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <div class="menu-entrar"><a class="btn-footer" href="#"><li class="entrar"><img srcset="../imgs/icon-login.png" alt="login" class="icon-login">ENTRAR</li></a>
+                        </div>
+                        <div class="resto-menu">
+                            <a class="btn-footer" href="#"><li class="menudrop">MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="#"><li class="menudrop">MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="#"><li class="menudrop">RECÉM-NASCIDO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="#"><li class="menudrop">PUERICULTURA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                            <a class="btn-footer" href="../html/form.html"> <li class="especialzippy menudrop">ZIPPY IN A BOX</li><img srcset="../imgs/plus-vermelho.png" alt="zippyinabox" class="icon-zippy"></a><hr class="linha">
+                        </div>  
+                    </ul>
+                </div>
+                    <div class="logo desaparece">
+                        <a href="index.html" title="Ir para a página inicial">
+                            <img class="imgfit" src="../imgs/zippy-logo.png" alt="Zippy Logo" />
+                        </a>
+                    </div>
+                    <ul id="costumermenu desaparece" class="nav-links-2 icon-nav textright col-t-3">
+                        <li class="search1 desaparece"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar"></a></li>
+                        <li class="basket1 desaparece"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar"></a>0</li>
+                    </ul>
+                </nav>
+            </header>
+    <main>
+        <div class="containerquiz">
+            <div><img class="amarelo" src="../imgs/amarelo.png"></div>
+            <div><img class="amarelo1" src="../imgs/amarelo-desktop.png"></div>
+            <h3 class="quizletra">Qual a cor favorita do(s)<br>seu(s) filho(s)?</h2>
+            <section class="perguntas">
+                <ul class="quizp">
+                    <li><button class="cta1 cta">Azul</button></li>
+                    <li><button class="cta1 cta">Rosa</button></li>
+                    <li><button class="cta1 cta">Amarelo</button></li>
+                    <li><button class="cta1 cta">Vermelho</button></li>
+                    <li><button class="cta1 cta">Verde</button></li>
+                </ul>
+            </section>
+            <div class="prafrente-pratras">
+            <form action="../html/quiz2.html">
+                <button class="prafrente redondo" type="submit"><img src="../imgs/gobackquiz.png"></button>
+            </form>
+            <form action="../html/quiz4.html">
+                <button class="prafrente redondo" type="submit"><img src="../imgs/goquiz.png"></button>
+            </form>
+            </div>
+        </div>
+    </main>
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function(){
+            let botoes = document.getElementsByClassName('perguntas')[0].getElementsByTagName('ul')[0].children
+            console.log('lista de botoooooooessss', botoes);
+            for(let elem of botoes){
+             elem.addEventListener('click', function (event) {
+                 if (event.target.style.fontWeight !== "bold"){
+                         event.target.style.fontWeight = "bold"
+                         event.target.style.backgroundColor = "white"
+                         event.target.style.color = "#ED282D"
+                         event.target.style.border = "2px solid #ED282D"
+                     } else if(event.target.style.fontWeight = "bold"){
+                         event.target.style.color = "white"
+                         event.target.style.fontWeight = "normal"
+                         event.target.style.backgroundColor = "#ED282D"
+                      } else {
+ 
+                      }
+                     }); 
+             }}
+        )
+ 
+     
+      </script>
+    </body>
+</html>

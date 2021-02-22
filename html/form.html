@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>zippy form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet"  href="../css/styles.css" href="../css/form.css" href="../css/reset.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="poly-9 anim" src="../imgs/Polygon-yellow.png" alt="polygon-yellow">
+        <img class="poly-99 anim" src="../imgs/blue-square.png" alt="blue-square">
+        <header>
+                <nav role ="navigation" class="nav-links-2">
+                    <ul class="nomobile">
+                        <li><a href="index.html" title="Ir para a página inicial"><img class="imgfit" src="../imgs/logodesktop.png" alt="Zippy Logo" /></a></li>
+                        <ul class="nomobile2">
+                            <li><a href="#"></a>MENINA</li>
+                            <li><a href="#"></a>MENINO</li>
+                            <li><a href="#"></a>BÉBÉ MENINA</li>
+                            <li><a href="#"></a>BÉBÉ MENINO</li>
+                            <li><a href="#"></a>RECÉM-NASCIDO</li>
+                            <li><a href="#"></a>PUERICULTURA</li>
+                            <li class="special-one"><a href="../html/form.html">ZIPPY IN A BOX</a></li>
+                        </ul>
+                        <ul class="nomobile3">
+                            <li class="spacing"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar">PESQUISAR</a></li>
+                            <li><a class="spacing" href="#"><li class=""><img srcset="../imgs/icon-login.png" alt="login" class="">ENTRAR</li></a></li>
+                            <li class="spacing"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar">0</a></li>
+                        </ul>
+                    </ul>
+                    <div id="menuToggle">
+                        <input type="checkbox" class="textleft malandro" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <div class="menu-entrar"><a class="btn-footer" href="#"><li class="entrar"><img srcset="../imgs/icon-login.png" alt="login" class="icon-login">ENTRAR</li></a>
+                            </div>
+                            <div class="resto-menu">
+                                <a class="btn-footer" href="#"><li class="menudrop">MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="#"><li class="menudrop">MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="#"><li class="menudrop">RECÉM-NASCIDO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="#"><li class="menudrop">PUERICULTURA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                                <a class="btn-footer" href="../html/form.html"> <li class="especialzippy menudrop">ZIPPY IN A BOX</li><img srcset="../imgs/plus-vermelho.png" alt="zippyinabox" class="icon-zippy"></a><hr class="linha">
+                            </div>  
+                        </ul>
+                    </div>
+                        <div class="logo desaparece">
+                            <a href="index.html" title="Ir para a página inicial">
+                                <img class="imgfit" src="../imgs/zippy-logo.png" alt="Zippy Logo" />
+                            </a>
+                        </div>
+                        <ul id="costumermenu desaparece" class="nav-links-2 icon-nav textright col-t-3">
+                            <li class="search1 desaparece"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar"></a></li>
+                            <li class="basket1 desaparece"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar"></a>0</li>
+                        </ul>
+                    </nav>
+            </header>
+            <main class="maindateresa">
+                <img src="../imgs/lindosmem.png" alt="muito lindos" class="so-desktop">
+                <h2 class="teresa-h2">Vamos começar a nossa história</h2>
+                <form class="formulario">
+                    <label class="name" for="fname">Sou o/a:</label><br>
+                    <input type="text" placeholder="Nome do pai ou mãe" id="fname" class="gridrow"><br>
+                    <label class="date" for="lname">A família cresceu no dia</label><br>
+                    <input id="date" type="date" placeholder="Data de nascimento do filho/filha" class="gridrow"><br>
+                    <label class="name-child" type="pname">O meu maior orgulho chama-se</label>
+                    <input type="text" placeholder="Nome do filho/a" id="childname" class="gridrow"><br>
+                    <div class="formulario-hr">
+                    <label class="quantity" type="text">Veste o nº</label><br>
+                    <label class="number" type="text">Calça o nº</label><br>
+                    </div>
+                    <div class="formulario-hr">
+                    <input type="number" id="quantity" name="quantity" min="2" max="14">
+                    <input type="number" id="number" name="quantity" min="14" max="40">
+                    </div>
+                    <a href="../html/quiz.html" class=" formulario cta4">Vamos?</a>
+                </form>
+                <form action="../html/quiz.html">
+                    <button class="cta3" type="submit">Vamos?</button>
+                </form>
+            </main>
+            <footer>
+                <div class="bottom-footer">
+                    <p>© Zippy 2021. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+        </div>
+            <script>
+
+                // botão scroll
+                const mybutton = document.getElementById("myBtn");
+
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+        </div>
+</body>
+
+</html>

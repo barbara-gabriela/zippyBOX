@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>zippy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap scripts !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="../css/styles.css" href="../css/burger-nav.css" href="../css/reset.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+    <img class="poly1 anim" srcset="../poly-mb/meio-circulo.png" alt="Meio-Círculo">
+    <!--<img class="poly2 anim" srcset="../poly-mb/polygon-3.png" alt="poligono">-->
+    <img class="poly3 anim" srcset="../poly-mb/square-1.png" alt="quadrado-azul">
+    <img class="poly4 anim" srcset="../poly-mb/triângulo.png" alt="triângulo">
+    <img class="poly5 anim" srcset="../poly-mb/polygon-3.png" alt="poligono">
+    <img class="poly6 anim" srcset="../poly-mb/meio-circulo.png" alt="meio-circulo">
+    <img class="poly7 anim" srcset="../poly-mb/triângulo.png" alt="triângulo">
+    <img class="poly8 anim" srcset="../poly-mb/square-2.png" alt="quadrado-amarelo">
+<header>
+        <nav role ="navigation" class="nav-links-2">
+            <ul class="nomobile">
+                <li><a href="index.html" title="Ir para a página inicial"><img class="imgfit" src="../imgs/logodesktop.png" alt="Zippy Logo" /></a></li>
+                <ul class="nomobile2">
+                    <li><a href="#"></a>MENINA</li>
+                    <li><a href="#"></a>MENINO</li>
+                    <li><a href="#"></a>BÉBÉ MENINA</li>
+                    <li><a href="#"></a>BÉBÉ MENINO</li>
+                    <li><a href="#"></a>RECÉM-NASCIDO</li>
+                    <li><a href="#"></a>PUERICULTURA</li>
+                    <li class="special-one"><a href="../html/form.html">ZIPPY IN A BOX</a></li>
+                </ul>
+                <ul class="nomobile3">
+                    <li class="spacing"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar">PESQUISAR</a></li>
+                    <li><a class="spacing" href="#"><li class=""><img srcset="../imgs/icon-login.png" alt="login" class="">ENTRAR</li></a></li>
+                    <li class="spacing"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar">0</a></li>
+                </ul>
+            </ul>
+            <div id="menuToggle">
+                <input type="checkbox" class="textleft malandro" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <div class="menu-entrar"><a class="btn-footer" href="#"><li class="entrar"><img srcset="../imgs/icon-login.png" alt="login" class="icon-login">ENTRAR</li></a>
+                    </div>
+                    <div class="resto-menu">
+                        <a class="btn-footer" href="#"><li class="menudrop">MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="#"><li class="menudrop">MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="#"><li class="menudrop">BEBÉ MENINO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="#"><li class="menudrop">RECÉM-NASCIDO</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="#"><li class="menudrop">PUERICULTURA</li><img srcset="../imgs/plus.png" alt="mais" class="icon-plus"></a><hr class="linha">
+                        <a class="btn-footer" href="../html/form.html"> <li class="especialzippy menudrop">ZIPPY IN A BOX</li><img srcset="../imgs/plus-vermelho.png" alt="zippyinabox" class="icon-zippy"></a><hr class="linha">
+                    </div>  
+                </ul>
+            </div>
+                <div class="logo desaparece">
+                    <a href="index.html" title="Ir para a página inicial">
+                        <img class="imgfit" src="../imgs/zippy-logo.png" alt="Zippy Logo" />
+                    </a>
+                </div>
+                <ul id="costumermenu desaparece" class="nav-links-2 icon-nav textright col-t-3">
+                    <li class="search1 desaparece"><img srcset="../imgs/icon-search.png" alt="search button" class="icon-search"><a class="mobilenone" href="#" title="Pesquisar"></a></li>
+                    <li class="basket1 desaparece"><img srcset="../imgs/icon-basket.png" alt="basket" class="icon-basket"><a class="mobilenone" href="#" title="Entrar"></a>0</li>
+                </ul>
+            </nav>
+        <!--Banner-->
+        <section>
+            <div class="my-banner">
+                <img class="banner" srcset="../imgs/banner.png" alt="hero-image">
+                <div class="sub-container">
+                    <h1 class="banner-title">A Zippy In A Box <br>chegou!</h1>
+                    <div class="btnBox">
+                        <div>
+                            <form action="../html/form.html">
+                                <button class="cta" type="submit">Vamos Fazer uma Box?</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </header>
+    <main>
+        <!--PRODUCT DETAILS-->
+        <section class="main-grid1 product-content3">
+            <div class="malandreca"><h2 class="gridrow">Zippy In A Box</h2>
+            <p class="">Queremos continuar ao vosso lado em todos os momentos, e fazer parte do vosso crescimento
+                acompanhando os
+                vossos momentos com a partilha de experiências, criatividade e aprendizagem. </p>
+            <h3 class="">Estamos preparados para aterrar à porta de vossa casa e surpreender-vos!</h3></div>
+            <img class="main-grid1 imgfit" id="caixa" srcset="../imgs/caixa.png" alt="zippy-in-a-box">
+        </section>
+        <section class="desktop-iconz">
+            <article class="textcenter iconz0">
+                <img class="iconz" class="iconz iczdev" srcset="../imgs/icon-lista.png" alt="icon-lista" />
+                <h4>A diversão começa aqui! <br>Faça o quiz para ter a experiência<br> mais personalizada.
+                </h4>
+            </article>
+            <article class="textcenter iconz1">
+                <img class="iconz" class="iconz iczdev" srcset="../imgs/icon-box.png" alt="icon-box" />
+                <h4>Receba a sua Zippy in a Box</h4>
+            </article>
+            <article class="textcenter iconz0">
+                <img class="iconz" class="iconz iczdev" srcset="../imgs/icon-confetti.png" alt="icon-confetti" />
+                <h4>Desembrulhe um mundo<br>de brincadeira!</h4>
+            </article>
+        </section>
+        <form action="../html/form.html">
+            <button class="cta" type="submit">Vamos Fazer uma Box?</button>
+        </form>
+        <!--About-->
+        <section class="about">
+            <section class="main-grid11 product-content3">
+                <div class="malandreca"><h4 class=" tolo gridrow">A Zippy sabe que os pais perdem muito tempo<br>na procura dos essenciais para os seus filhos.</h4>
+                <p class="">Vamos desafiá-lo a deixar essa tarefa do nosso lado.<br> Com a Zippy In A Box vai conseguir distribuir melhor o<br> seu tempo.</p></div>
+                <img class="imgfit img-exp img-esq" id="img1" srcset="../imgs/1a-imagem.png" alt="kid-crayons">
+            </section>
+            <section class="main-grid3 product-content3">
+                <img class="malandreca imgfit img-exp img-dir" srcset="../imgs/2a-imagem.png" alt="parents-boat">
+                <div class="malandreca2"><h4 class="tolo">Não nos esquecemos dos pais!</h4>
+                <p class="desktop-p">A tarefa diária da educação e brincadeira com o seu<br> filho é gratificante mas muitas vezes também cansativa.<br> Para que os prémios sejam repartidos, a nossa Box vai<br> enviar-lhe o prémio de melhor Pai/Mãe.</p>
+            </div>
+        </section>
+        <section class="main-grid11 product-content3">
+            <div class="malandreca"><h4 class="tolo">Sabemos que a tecnologia cada vez mais está<br class="nodesktopnao">presente no dia-a-dia dos vossos filhos.</h4>
+            <p class="desktop-p">Brincar também é essencial, por isso a Zippy In A Box<br> não vai ser só uma caixa de transporte como também<br> vai ser o tabuleiro do jogo.
+            </p></div>
+            <img class="imgfit img-exp img-esq" srcset="../imgs/3a-imagem.png" alt="kid-painting">
+        </section>
+            <form action="../html/quiz.html">
+                <button class="cta" type="submit">Vamos Fazer uma Box?</button>
+            </form>
+        </section>
+        <!--Carrossel-->
+        <section class="carousel">
+            <h2 class="gridrow">#ZippyInABox</h2>
+            <h3 class="gridrow">Estamos preparados para aterrar à porta de vossa casa e surpreender-vos!</h3>
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
+                    <ol class="carousel-indicators" data-role="carousel" data-bullet-style="square">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><img
+                                src="../imgs/rectangle.png"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-instagram1 d-block" srcset="../imgs/mentira.png"
+                                alt="crianças-a-brincar">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-instagram d-block" srcset="../imgs/instagram-2.png" alt="blocos-coloridos">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-instagram d-block" srcset="../imgs/instagram-3.png" alt="natureza">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-instagram d-block" srcset="../imgs/instagram-4.png"
+                                alt="crianças-a-brincar">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-instagram d-block" srcset="../imgs/instagram-5.png" alt="blocos-coloridos">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-instagram d-block" srcset="../imgs/instagram-6.png" alt="natureza">
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                        data-slide="prev"><img src="../imgs/contro-prev.png">
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        data-slide="next"><img src="../imgs/contro-next.png">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        </section>
+        <div class="container-email">
+        <p class="textcenter desktop-email-p">Deixa o teu e-mail e serás o primeiro a <br class="desktop-xau">receber as novidades.</p>
+        <div class="newsletter">
+            <div class="form-group required">
+                <form>
+                    <div class="">
+                        <div class="email">
+                            <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+                        </div>
+                    <button class="cta1 cta" type="submit">Subscrever</button>
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="gridrowfull footer-2">
+            <div class="col-12 col-d-2 footer-container">
+                <article class="coluna">
+                <section>
+                    <ul>
+                        <li class="comprido"><button class="btn-footer btnfooter1"><i><img src="../imgs/lojas.png" class="icon-footer"></i>LOJAS ZIPPY</button><hr class="linha"></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="comprido"><button class="btn-footer btnfooter1"><i><img src="../imgs/entregas.png" class="icon-footer"></i>ENTREGAS</button><hr class="linha"></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="comprido"><button class="btn-footer btnfooter1"><i><img src="../imgs/trocas.png" class="icon-footer"></i>TROCAS E DEVOLUÇÕES</button><hr class="linha"></li>
+                    </ul>
+                </section>
+                </article>
+                <section class="coluna">
+                    <ul>
+                        <li class="comprido"><button class=" btn-footer btnfooterright">AJUDA <i class="space"><img src="../imgs/down.png"></i></button><hr class="linha">
+                            <ul class="dropdown">
+                                <li>Perguntas Frequentes</li>
+                                <li>Condições Gerais de Venda</li>
+                                <li>Promoções e Campanhas</li>
+                                <li>Formas de Pagamento</li>
+                                <li>Apoio ao Cliente</li>
+                                <li>Talão de Oferta</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="coluna">
+                    <ul>
+                        <li class="comprido"><button class="btn-footer icon-footer-right">SOBRE A ZIPPY <i class="space"><img src="../imgs/down.png" class="icon-footer-right"></i></button><hr class="linha">
+                            <ul class="dropdown">
+                                <li>A Nossa História</li>
+                                <li>Qualidade</li>
+                                <li>Grupo SONAE</li>
+                                <li>Livro de Reclamações Electrónico</li>
+                                <li>Políticas de Sustentabilidade</li>
+                                <li>Política de Privacidade</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="coluna">
+                    <ul>
+                        <li class="comprido"><button class="btn-footer icon-footer-right">SIGA-NOS <i  class="space"><img src="../imgs/down.png" class="icon-footer-right"></i></button><hr class="linha">
+                            <ul class="dropdown">
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="coluna">
+                    <ul>
+                        <li class="comprido"><button class="btn-footer icon-footer-right">AJUDA PUERICULTURA <i  class="space"><img src="../imgs/down.png" class="icon-footer-right"></i></button><hr class="linha">
+                            <ul class="dropdown">
+                                <li>Cadeiras Auto</li>
+                                <li>Puericultura Leve</li>
+                                <li>Brinquedos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="comprido">
+                            <hr class="linha2">
+                            <button class="btn-footer btnfooter1 btnfooter2">
+                           <i><img src="../imgs/portugal.png" class="icon-footer"></i>Português | Portugal</button>
+                           <hr class="linha2">
+                            <!--oi oi não sei se faz sentido-->
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top" onclick="topFunction()" id="myBtn"
+                title="Go to top" class=" topo"><img src="../imgs/back-to-top.png"></button>
+        </div>
+        <div class="bottom-footer">
+            <p>© Zippy 2021. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        // botao trololol
+
+
+      
+        // botão scroll
+        const mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    </div>
+</body>
+
+</html>
